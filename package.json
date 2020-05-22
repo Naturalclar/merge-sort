@@ -1,0 +1,18 @@
+{
+  "name": "merge-sort",
+  "version": "0.0.1",
+  "main":"src/MergeSort.bs.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bs-platform": "^7.0.1"
+  }
+}
